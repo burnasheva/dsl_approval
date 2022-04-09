@@ -49,7 +49,7 @@ object EchoHelloWorld : BuildType({
 
     features {
         approval {
-            approvalRules = "user:admin"
+            approvalRules = "user:developer"
             manualRunsApproved = false
         }
     }
